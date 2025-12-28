@@ -1,0 +1,708 @@
+[2025-11-05 12:05:48,872] 13 pikepdf._core - INFO - pikepdf C++ to Python logger bridge initialized
+[2025-11-05 12:06:07,239] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:07,326] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:07,327] 359 docling.document_converter - INFO - Initializing pipeline for StandardPdfPipeline with options hash f9730ffaa6e7f8d4fb0c98c8df3f18cb
+[2025-11-05 12:06:07,349] 112 docling.models.factories.base_factory - INFO - Loading plugin 'docling_defaults'
+[2025-11-05 12:06:07,352] 26 docling.models.factories - INFO - Registered picture descriptions: ['vlm', 'api']
+[2025-11-05 12:06:07,361] 112 docling.models.factories.base_factory - INFO - Loading plugin 'docling_defaults'
+[2025-11-05 12:06:07,364] 16 docling.models.factories - INFO - Registered ocr engines: ['auto', 'easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+[2025-11-05 12:06:08,021] 56 docling.models.auto_ocr_model - INFO - Auto OCR model selected ocrmac.
+[2025-11-05 12:06:08,027] 82 docling.utils.accelerator_utils - INFO - Accelerator device: 'mps'
+[2025-11-05 12:06:10,154] 82 docling.utils.accelerator_utils - INFO - Accelerator device: 'mps'
+[2025-11-05 12:06:10,992] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_01.jpg
+[2025-11-05 12:06:24,130] 338 docling.document_converter - INFO - Finished converting document photo_01.jpg in 16.89 sec.
+[2025-11-05 12:06:24,150] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:24,153] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:24,153] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_02.jpg
+[2025-11-05 12:06:25,475] 338 docling.document_converter - INFO - Finished converting document photo_02.jpg in 1.33 sec.
+[2025-11-05 12:06:25,478] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:25,482] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:25,483] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_03.jpg
+[2025-11-05 12:06:26,653] 338 docling.document_converter - INFO - Finished converting document photo_03.jpg in 1.18 sec.
+[2025-11-05 12:06:26,655] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:26,658] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:26,659] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_04.jpg
+[2025-11-05 12:06:27,936] 338 docling.document_converter - INFO - Finished converting document photo_04.jpg in 1.28 sec.
+[2025-11-05 12:06:27,938] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:27,942] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:27,943] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_05.jpg
+[2025-11-05 12:06:29,099] 338 docling.document_converter - INFO - Finished converting document photo_05.jpg in 1.16 sec.
+[2025-11-05 12:06:29,101] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:29,105] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:29,105] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_06.jpg
+[2025-11-05 12:06:30,409] 338 docling.document_converter - INFO - Finished converting document photo_06.jpg in 1.31 sec.
+[2025-11-05 12:06:30,411] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:30,416] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:30,416] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_07.jpg
+[2025-11-05 12:06:31,584] 338 docling.document_converter - INFO - Finished converting document photo_07.jpg in 1.17 sec.
+[2025-11-05 12:06:31,585] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:31,589] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:31,589] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_08.jpg
+[2025-11-05 12:06:32,869] 338 docling.document_converter - INFO - Finished converting document photo_08.jpg in 1.28 sec.
+[2025-11-05 12:06:32,871] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:32,876] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:32,876] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_09.jpg
+[2025-11-05 12:06:34,039] 338 docling.document_converter - INFO - Finished converting document photo_09.jpg in 1.17 sec.
+[2025-11-05 12:06:34,040] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:34,044] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:34,044] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_10.jpg
+[2025-11-05 12:06:35,199] 338 docling.document_converter - INFO - Finished converting document photo_10.jpg in 1.16 sec.
+[2025-11-05 12:06:35,201] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:35,204] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:35,204] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_11.jpg
+[2025-11-05 12:06:36,486] 338 docling.document_converter - INFO - Finished converting document photo_11.jpg in 1.29 sec.
+[2025-11-05 12:06:36,488] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:06:36,493] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:36,493] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_12.jpg
+[2025-11-05 12:06:37,657] 338 docling.document_converter - INFO - Finished converting document photo_12.jpg in 1.17 sec.
+[2025-11-05 12:06:37,664] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.DOCX: 'docx'>]
+[2025-11-05 12:06:37,675] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:37,675] 359 docling.document_converter - INFO - Initializing pipeline for SimplePipeline with options hash 995a146ad601044538e6a923bea22f4e
+[2025-11-05 12:06:37,675] 65 docling.pipeline.base_pipeline - INFO - Processing document draft_agenda_retreat2025.docx
+[2025-11-05 12:06:37,731] 338 docling.document_converter - INFO - Finished converting document draft_agenda_retreat2025.docx in 0.07 sec.
+[2025-11-05 12:06:37,735] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.DOCX: 'docx'>]
+[2025-11-05 12:06:37,743] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:37,743] 65 docling.pipeline.base_pipeline - INFO - Processing document final_agenda_roles_retreat.docx
+[2025-11-05 12:06:37,795] 338 docling.document_converter - INFO - Finished converting document final_agenda_roles_retreat.docx in 0.06 sec.
+[2025-11-05 12:06:37,800] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.DOCX: 'docx'>]
+[2025-11-05 12:06:37,808] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:37,808] 65 docling.pipeline.base_pipeline - INFO - Processing document retreat_feedback_lessons2025.docx
+[2025-11-05 12:06:37,849] 338 docling.document_converter - INFO - Finished converting document retreat_feedback_lessons2025.docx in 0.05 sec.
+[2025-11-05 12:06:37,851] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+[2025-11-05 12:06:37,852] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:37,852] 65 docling.pipeline.base_pipeline - INFO - Processing document retreat_moodboard_camille.pdf
+[2025-11-05 12:06:38,855] 338 docling.document_converter - INFO - Finished converting document retreat_moodboard_camille.pdf in 1.00 sec.
+[2025-11-05 12:06:38,859] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.XLSX: 'xlsx'>]
+[2025-11-05 12:06:38,870] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:06:38,870] 65 docling.pipeline.base_pipeline - INFO - Processing document snow_games_scoreboard_2025.xlsx
+[2025-11-05 12:06:38,870] 222 docling.backend.msexcel_backend - INFO - Processing sheet 0: Sheet1
+[2025-11-05 12:06:38,873] 338 docling.document_converter - INFO - Finished converting document snow_games_scoreboard_2025.xlsx in 0.01 sec.
+[2025-11-05 12:06:40,254] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:40,322] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:40,399] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:40,481] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:40,566] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:40,650] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:40,735] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:40,814] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:40,892] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:40,967] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,042] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,115] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,194] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,286] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,367] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,455] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,547] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,631] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,709] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,785] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,857] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:41,934] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,008] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,082] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,158] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,232] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,305] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,380] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,453] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,526] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,604] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,679] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,754] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,829] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,909] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:42,980] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,052] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,128] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,205] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,278] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,355] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,432] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,507] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,582] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,652] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,725] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,799] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,872] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:43,946] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,021] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,096] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,174] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,243] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,322] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,417] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,506] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,587] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,664] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,741] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,812] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,885] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:44,953] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,020] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,091] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,159] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,239] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,330] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,420] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,508] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,588] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,666] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,738] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,812] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,882] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:45,955] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,027] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,125] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,234] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,319] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,396] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,473] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,549] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,620] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,692] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,763] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,834] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,905] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:46,977] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,046] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,117] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,188] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,260] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,333] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,407] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,479] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,553] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,624] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,697] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,819] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:47,951] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,066] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,152] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,231] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,305] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,378] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,450] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,521] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,594] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,670] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,753] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,845] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:48,931] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,017] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,092] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,172] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,250] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,323] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,398] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,473] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,545] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,616] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,685] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,757] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,833] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,907] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:49,983] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,058] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,133] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,206] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,279] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,352] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,426] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,551] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,640] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,721] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,796] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,866] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:50,935] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:51,129] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:51,391] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:51,604] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:51,949] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:52,111] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:52,272] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:52,357] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:52,468] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:52,555] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:52,651] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:52,730] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:52,805] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:52,877] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:52,950] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:53,110] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:53,207] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:53,306] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:53,389] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:53,517] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:53,623] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:53,735] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:53,848] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:53,943] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,020] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,097] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,156] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,273] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,354] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,466] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,527] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,579] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,659] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,738] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,800] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,906] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:54,969] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,093] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,165] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,276] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,369] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,467] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,525] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,624] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,687] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,784] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,914] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:55,973] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,054] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,132] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,205] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,274] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,347] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,422] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,495] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,569] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,645] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,721] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,794] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,868] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:56,941] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:57,013] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:57,082] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:57,151] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:57,220] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:57,396] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:57,565] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:57,856] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:57,959] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,042] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,099] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,226] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,325] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,413] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,496] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,580] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,661] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,742] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,819] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,897] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:58,966] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,029] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,101] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,180] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,259] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,356] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,444] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,535] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,609] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,703] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,777] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,852] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,927] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:06:59,982] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,058] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,128] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,203] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,285] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,374] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,456] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,536] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,611] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,684] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,755] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,824] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,898] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:00,968] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,035] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,107] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,176] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,251] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,322] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,400] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,475] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,550] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,618] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,864] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:01,972] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 12:07:16,866] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:07:17,262] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:17,291] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:17,306] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:17,363] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:21,168] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:07:41,852] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:07:42,097] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:42,132] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:42,159] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:42,250] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:07:43,398] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:10:54,480] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:10:54,634] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:10:54,669] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:10:54,704] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:10:54,764] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:10:56,517] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:13:28,668] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:28,673] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:28,673] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_01.jpg
+[2025-11-05 12:13:30,655] 338 docling.document_converter - INFO - Finished converting document photo_01.jpg in 1.99 sec.
+[2025-11-05 12:13:30,656] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:30,661] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:30,661] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_02.jpg
+[2025-11-05 12:13:31,837] 338 docling.document_converter - INFO - Finished converting document photo_02.jpg in 1.18 sec.
+[2025-11-05 12:13:31,838] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:31,842] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:31,842] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_03.jpg
+[2025-11-05 12:13:33,133] 338 docling.document_converter - INFO - Finished converting document photo_03.jpg in 1.30 sec.
+[2025-11-05 12:13:33,134] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:33,139] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:33,140] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_04.jpg
+[2025-11-05 12:13:34,305] 338 docling.document_converter - INFO - Finished converting document photo_04.jpg in 1.17 sec.
+[2025-11-05 12:13:34,308] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:34,311] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:34,312] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_05.jpg
+[2025-11-05 12:13:35,517] 338 docling.document_converter - INFO - Finished converting document photo_05.jpg in 1.21 sec.
+[2025-11-05 12:13:35,519] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:35,523] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:35,523] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_06.jpg
+[2025-11-05 12:13:36,844] 338 docling.document_converter - INFO - Finished converting document photo_06.jpg in 1.32 sec.
+[2025-11-05 12:13:36,847] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:36,852] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:36,852] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_07.jpg
+[2025-11-05 12:13:38,003] 338 docling.document_converter - INFO - Finished converting document photo_07.jpg in 1.16 sec.
+[2025-11-05 12:13:38,005] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:38,009] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:38,009] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_08.jpg
+[2025-11-05 12:13:39,309] 338 docling.document_converter - INFO - Finished converting document photo_08.jpg in 1.30 sec.
+[2025-11-05 12:13:39,311] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:39,316] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:39,317] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_09.jpg
+[2025-11-05 12:13:40,493] 338 docling.document_converter - INFO - Finished converting document photo_09.jpg in 1.18 sec.
+[2025-11-05 12:13:40,494] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:40,497] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:40,498] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_10.jpg
+[2025-11-05 12:13:41,669] 338 docling.document_converter - INFO - Finished converting document photo_10.jpg in 1.18 sec.
+[2025-11-05 12:13:41,670] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:41,674] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:41,674] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_11.jpg
+[2025-11-05 12:13:42,828] 338 docling.document_converter - INFO - Finished converting document photo_11.jpg in 1.16 sec.
+[2025-11-05 12:13:42,829] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.IMAGE: 'image'>]
+[2025-11-05 12:13:42,833] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:42,833] 65 docling.pipeline.base_pipeline - INFO - Processing document photo_12.jpg
+[2025-11-05 12:13:44,128] 338 docling.document_converter - INFO - Finished converting document photo_12.jpg in 1.30 sec.
+[2025-11-05 12:13:44,138] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.DOCX: 'docx'>]
+[2025-11-05 12:13:44,160] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:44,160] 65 docling.pipeline.base_pipeline - INFO - Processing document draft_agenda_retreat2025.docx
+[2025-11-05 12:13:44,233] 338 docling.document_converter - INFO - Finished converting document draft_agenda_retreat2025.docx in 0.10 sec.
+[2025-11-05 12:13:44,238] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.DOCX: 'docx'>]
+[2025-11-05 12:13:44,246] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:44,247] 65 docling.pipeline.base_pipeline - INFO - Processing document final_agenda_roles_retreat.docx
+[2025-11-05 12:13:44,303] 338 docling.document_converter - INFO - Finished converting document final_agenda_roles_retreat.docx in 0.07 sec.
+[2025-11-05 12:13:44,307] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.DOCX: 'docx'>]
+[2025-11-05 12:13:44,315] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:44,315] 65 docling.pipeline.base_pipeline - INFO - Processing document retreat_feedback_lessons2025.docx
+[2025-11-05 12:13:44,355] 338 docling.document_converter - INFO - Finished converting document retreat_feedback_lessons2025.docx in 0.05 sec.
+[2025-11-05 12:13:44,358] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+[2025-11-05 12:13:44,359] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:44,359] 65 docling.pipeline.base_pipeline - INFO - Processing document retreat_moodboard_camille.pdf
+[2025-11-05 12:13:45,512] 338 docling.document_converter - INFO - Finished converting document retreat_moodboard_camille.pdf in 1.15 sec.
+[2025-11-05 12:13:45,528] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.XLSX: 'xlsx'>]
+[2025-11-05 12:13:45,549] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:13:45,549] 65 docling.pipeline.base_pipeline - INFO - Processing document snow_games_scoreboard_2025.xlsx
+[2025-11-05 12:13:45,550] 222 docling.backend.msexcel_backend - INFO - Processing sheet 0: Sheet1
+[2025-11-05 12:13:45,551] 338 docling.document_converter - INFO - Finished converting document snow_games_scoreboard_2025.xlsx in 0.03 sec.
+[2025-11-05 12:13:45,834] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:45,911] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:46,001] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:46,142] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:46,273] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:46,384] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:46,495] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:46,601] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:46,715] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:46,814] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:46,910] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,000] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,113] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,233] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,326] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,412] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,506] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,602] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,699] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,796] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,888] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:47,995] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:48,088] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:48,188] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:48,301] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:48,400] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:48,508] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:48,606] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:48,692] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:48,781] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:48,865] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:48,953] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,036] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,121] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,215] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,302] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,390] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,476] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,557] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,644] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,729] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,818] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,899] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:49,989] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,076] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,157] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,240] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,328] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,428] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,522] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,614] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,702] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,796] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,886] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:50,983] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,063] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,141] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,222] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,311] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,389] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,487] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,576] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,658] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,753] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,844] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:51,928] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,015] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,106] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,189] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,274] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,358] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,442] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,529] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,611] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,692] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,777] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,876] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:52,989] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,077] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,162] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,242] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,323] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,404] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,487] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,570] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,652] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,736] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,820] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,898] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:53,981] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:54,064] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:54,149] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:54,235] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:54,318] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:54,398] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:54,477] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:54,554] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:54,636] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:54,760] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:54,881] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,006] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,093] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,173] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,257] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,344] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,433] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,518] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,606] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,693] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,772] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,863] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:55,947] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,040] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,120] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,181] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,252] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,328] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,405] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,488] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,576] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,654] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,738] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,823] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,908] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:56,992] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,072] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,160] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,241] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,320] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,404] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,487] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,570] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,691] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,774] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,853] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:57,936] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:58,019] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:58,104] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:58,329] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:58,606] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:58,823] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:59,136] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:59,289] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:59,404] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:59,491] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:59,583] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:59,658] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:59,757] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:59,836] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:13:59,925] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:00,010] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:00,089] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:00,265] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:00,366] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:00,460] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:00,550] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:00,692] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:00,793] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:00,870] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:00,956] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,042] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,122] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,202] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,257] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,363] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,446] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,537] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,595] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,647] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,741] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,821] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,876] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:01,979] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,036] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,134] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,192] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,297] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,381] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,494] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,552] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,657] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,714] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,799] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,929] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:02,986] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,091] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,169] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,248] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,319] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,398] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,480] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,553] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,630] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,707] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,785] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,862] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:03,934] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:04,012] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:04,085] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:04,142] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:04,212] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:04,282] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:04,432] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:04,603] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:04,895] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:05,003] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:05,089] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:05,144] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:05,290] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:05,416] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:05,530] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:05,643] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:05,743] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:05,876] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,015] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,130] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,236] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,325] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,426] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,521] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,618] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,709] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,804] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,893] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:06,992] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,077] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,189] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,275] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,359] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,445] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,503] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,583] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,657] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,728] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,804] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,886] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:07,965] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,049] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,136] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,224] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,310] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,390] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,470] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,544] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,615] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,688] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,757] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,830] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,901] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:08,975] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:09,050] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:09,125] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:09,196] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:09,455] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:09,561] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 12:14:22,655] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:14:22,809] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:22,842] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:22,859] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:22,953] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:14:24,747] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:15:03,779] 361 docling.datamodel.document - INFO - detected formats: [<InputFormat.XLSX: 'xlsx'>]
+[2025-11-05 12:15:03,792] 314 docling.document_converter - INFO - Going to convert document batch...
+[2025-11-05 12:15:03,794] 65 docling.pipeline.base_pipeline - INFO - Processing document snow_games_scoreboard_2025.xlsx
+[2025-11-05 12:15:03,795] 222 docling.backend.msexcel_backend - INFO - Processing sheet 0: Sheet1
+[2025-11-05 12:15:03,798] 338 docling.document_converter - INFO - Finished converting document snow_games_scoreboard_2025.xlsx in 0.02 sec.
+[2025-11-05 12:15:04,073] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:15:04,078] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 12:15:04,079] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 12:15:17,677] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:15:17,853] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:15:17,870] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:15:17,931] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:15:17,959] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:15:22,625] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:16:08,223] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:16:08,366] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:16:08,428] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:16:08,445] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:16:08,504] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:16:10,624] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:16:23,689] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 12:16:23,857] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:16:23,924] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:16:23,959] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:16:23,986] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 12:16:25,213] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

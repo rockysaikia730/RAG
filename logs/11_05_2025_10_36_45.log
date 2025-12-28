@@ -1,0 +1,84 @@
+[2025-11-05 10:47:46,200] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 10:47:46,213] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 10:47:46,217] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 10:48:15,847] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 10:48:15,855] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 10:48:15,857] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 10:50:39,091] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 10:50:39,095] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 10:50:39,097] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 10:51:07,114] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 10:51:07,118] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 10:51:07,119] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 10:51:41,608] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 10:51:41,614] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 10:51:41,615] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 10:53:06,679] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 10:53:06,684] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 10:53:06,686] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 11:05:57,396] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:05:57,403] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 11:05:57,405] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 11:06:07,128] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:06:07,574] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:07,597] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:07,649] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:07,673] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:11,670] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:06:21,892] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:06:22,001] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:22,024] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:22,047] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:22,075] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:22,651] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:06:40,056] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:06:40,154] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:40,181] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:40,206] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:40,234] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:06:40,607] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:07:31,665] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:07:31,670] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 11:07:31,672] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 11:07:39,539] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:07:39,651] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:07:39,674] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:07:39,699] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:07:39,716] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:07:43,739] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:07:54,425] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:07:54,534] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:07:54,558] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:07:54,582] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:07:54,609] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:07:55,440] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:11:07,106] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:11:07,111] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 11:11:07,112] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 11:11:11,102] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:11:11,203] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:11:11,227] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:11:11,251] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:11:11,268] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:11:12,364] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:11:18,453] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:11:18,569] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:11:18,592] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:11:18,609] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:11:18,634] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:11:18,921] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:13:11,693] 1025 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:13:11,698] 466 bm25s - DEBUG - Building index from IDs objects
+[2025-11-05 11:13:11,700] 123 llama_index.retrievers.bm25.base - WARNING - As bm25s.BM25 requires k less than or equal to number of nodes added. Overriding the value of similarity_top_k to number of nodes added.
+[2025-11-05 11:13:15,205] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:13:15,304] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:13:15,328] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:13:15,354] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:13:15,373] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:13:16,199] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:13:25,665] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-11-05 11:13:25,770] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:13:25,786] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:13:25,810] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:13:25,835] 1740 httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+[2025-11-05 11:13:26,146] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

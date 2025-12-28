@@ -1,0 +1,5 @@
+[2025-11-04 18:36:24,406] 23 root - INFO - Creating directory; RAG for the file __init__.py
+[2025-11-04 18:36:24,406] 23 root - INFO - Creating directory; RAG for the file data_ingestion.py
+[2025-11-04 18:36:24,406] 23 root - INFO - Creating directory; RAG for the file embedding.py
+[2025-11-04 18:36:24,406] 23 root - INFO - Creating directory; RAG for the file model_api.py
+[2025-11-04 18:36:24,406] 23 root - INFO - Creating directory; Experiments for the file experiments.ipynb
